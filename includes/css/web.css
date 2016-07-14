@@ -1,0 +1,183 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+    #feature{
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+   }
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+   .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  width: 55%;
+  height: 81%;
+  left: 22%;
+  top: 10%;
+  border-radius: 80%;
+  border: 2px solid #FFF;
+  transition: opacity 0.35s;
+ 
+}
+
+.hovereffect:hover .overlay {
+  background-color: rgba(0,0,0,0.6);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  transition: all 0.35s;
+}
+.hovereffect p {
+  color: #FFF;
+  padding: 3em 1em;
+  opacity: 0;
+  }
+.hovereffect:hover p, .hovereffect:hover .overlay {
+  opacity: 1;
+  }
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   
+    
+   #myCarousel{
+      margin-top: 60px;
+   }
+
+
+   .carousel-caption{
+      font-size: 24px;
+   }
+
+   .carousel-caption h4{
+      font-size: 40px;
+   }
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   body{
+      background-color:  #968aad;
+   }
+   #con{
+      background-color: #fff;
+   }
+   #topbar {
+    background-color: #493d60;
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+   #topbar-inner {
+    max-width: 1200px;
+}
+.topmenu {
+    display: inline;
+    float: right;
+}
+ul {
+    list-style: none;
+    -webkit-margin-before: .5em;
+    -webkit-margin-after: .5em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.topmenu ul li {
+    float: left;
+    margin: 0 8px;
+}
+.socials {
+    float: right;
+    position: relative;
+    margin-right: 10px;
+    height: 30px;
+    overflow: hidden;
+}
+#topbar .socials a {
+    margin: 0;
+    display: block;
+    float: left;
+    position: relative;
+    height: 26px;
+    width: 26px;
+    padding: 2px;
+   }
+a, a:hover{
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   
+   .carousel-caption{
+      font-size: 16px;
+   }
+   .carousel-caption h4{
+      font-size: 22px;
+   }
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+   
+  
+}
