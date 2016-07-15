@@ -34,22 +34,6 @@ ul {
     float: left;
     margin: 0 8px;
 }
-.socials {
-    float: right;
-    position: relative;
-    margin-right: 10px;
-    height: 30px;
-    overflow: hidden;
-}
-#topbar .socials a {
-    margin: 0;
-    display: block;
-    float: left;
-    position: relative;
-    height: 26px;
-    width: 26px;
-    padding: 2px;
-   }
 a, a:hover{
     overflow: hidden;
     text-decoration: none;
