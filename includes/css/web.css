@@ -154,6 +154,38 @@ a, a:hover{
     color: #fff;
 }
 
+#footer{
+  color: #dadada;
+  background-color: #493d60;
+  display: block;
+  overflow: visible;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#site-copyright{
+  display: block;
+  padding-top: 5px;
+  font-style: italic;
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+#sfooter{
+  clear: both;
+  display: table;
+  margin: 5px auto 0;
+  text-align: center;
+}
+
+.social {
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+}
+
+
 
 /* --------------------------------------
    Media Queries
