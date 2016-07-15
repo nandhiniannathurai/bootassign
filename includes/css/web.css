@@ -132,13 +132,13 @@ ul {
     -webkit-padding-start: 40px;
 }
 .topmenu ul li {
-    float: left;
+   float: left;
     margin: 0 8px;
 }
 .socials {
-    float: right;
+  float: right;
     position: relative;
-    margin-right: 10px;
+    margin-right: 5px;
     height: 30px;
     overflow: hidden;
 }
