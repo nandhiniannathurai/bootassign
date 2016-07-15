@@ -26,10 +26,13 @@ Notes:	 Hand coded for Udemy.com
    Typography
    -------------------------------------- */
 
+   #cen{
+    margin: auto;
+   }
+
    .hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
+  width: 333px;
+  height: 201px;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -153,7 +156,6 @@ a, a:hover{
     text-decoration: none;
     color: #fff;
 }
-
 #footer{
   color: #dadada;
   background-color: #493d60;
@@ -184,6 +186,7 @@ a, a:hover{
     height: 30px;
     overflow: hidden;
 }
+
 
 
 
